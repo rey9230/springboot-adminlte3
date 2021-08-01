@@ -12,8 +12,10 @@ public class SpringbootAdminlte3Application extends SpringBootServletInitializer
         SpringApplication.run(SpringbootAdminlte3Application.class, args);
     }
 
+
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(SpringbootAdminlte3Application.class);
+
     }
 }
